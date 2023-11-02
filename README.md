@@ -6,8 +6,8 @@ This is a bitcoin value forecasting project that will predict future bitcoin val
 ## Quick Start
 First clone this project
 ```
-git clone git@github.com:yunlingTao/CS4420_Pj1.git
-cd CS4420_Pj1
+git@github.com:yunlingTao/Evadb_bitcoinpred.git
+cd Evadb_bitcoinpred
 ```
 Install requirements
 
