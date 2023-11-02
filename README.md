@@ -9,6 +9,11 @@ First clone this project
 git clone git@github.com:yunlingTao/CS4420_Pj1.git
 cd CS4420_Pj1
 ```
+Install requirements
+
+```
+pip install -r requirements.txt
+```
 
 Then run 
 ```
