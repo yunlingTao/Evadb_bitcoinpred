@@ -17,37 +17,32 @@ pip install -r requirements.txt
 
 Then run 
 ```
-python3 load_data.py
-python3 train_model.py
-python3 predict.py
+python stocks_exchange.py
 ```
 
-Then run 
-```
-bitcoin_query.py
-```
 
 ## Output
-There are five options:
-1. Retrieve: retrieve data from a specific date
+There are six options:
+1. Get stock data for a specific date - query would find the row of data for the specific date that the user provided
 
-<img width="851" alt="Screen Shot 2023-11-02 at 4 43 15 PM" src="https://github.com/yunlingTao/CS4420_Pj1/assets/113263652/dc6cf66e-7579-45c6-a0c9-221d4c6fe6b4">
+<img width="565" alt="Screen Shot 2023-11-25 at 11 44 10 PM" src="https://github.com/yunlingTao/Evadb_bitcoinpred/assets/113263652/c209bb24-2809-49c5-a0cb-3e84e58f347f">
 
-2. Delete: delete data from a specific date
+2. Modify stock data - query would scrape the stocks exchange data for bitcoin from yahoo finance (from 14 days before the start date to the end date) and insert them into the database if the date does not yet have values. Then a snapshot of the table of those dates would be shown.
 
-<img width="835" alt="Screen Shot 2023-11-02 at 4 45 10 PM" src="https://github.com/yunlingTao/CS4420_Pj1/assets/113263652/a1300bbf-25df-4738-8614-3aaec00aa6e1">
+<img width="402" alt="Screen Shot 2023-11-25 at 11 45 33 PM" src="https://github.com/yunlingTao/Evadb_bitcoinpred/assets/113263652/0d2bef9d-70f3-446c-938a-f297a86f87af">
 
-3. Add: add data to a date
 
-  <img width="793" alt="Screen Shot 2023-11-02 at 4 45 53 PM" src="https://github.com/yunlingTao/CS4420_Pj1/assets/113263652/b5e68101-b75f-4170-98ef-45195d096599">
+3. Prediction 
 
-4. Modify: modify data for a date
+<img width="255" alt="Screen Shot 2023-11-25 at 11 46 55 PM" src="https://github.com/yunlingTao/Evadb_bitcoinpred/assets/113263652/5df33e95-0bbc-4df4-a6a2-bed8bbc43727">
 
-   <img width="816" alt="Screen Shot 2023-11-02 at 4 46 43 PM" src="https://github.com/yunlingTao/CS4420_Pj1/assets/113263652/6f4af741-6f0b-45be-a30d-ca65a58035fb">
+  
+4. 
+<img width="548" alt="Screen Shot 2023-11-25 at 11 47 35 PM" src="https://github.com/yunlingTao/Evadb_bitcoinpred/assets/113263652/65fa61fb-a6c5-4fc5-9f56-0dfd4427ebbe">
+5.
+<img width="682" alt="Screen Shot 2023-11-25 at 11 47 57 PM" src="https://github.com/yunlingTao/Evadb_bitcoinpred/assets/113263652/7838c3fe-b297-4500-85eb-5c3b6d715b90">
 
-5. Forecast: 
-
-<img width="935" alt="Screen Shot 2023-11-02 at 4 47 38 PM" src="https://github.com/yunlingTao/CS4420_Pj1/assets/113263652/3414dda5-3bf4-4075-a09f-7e4e3e196533">
-
+6.
+<img width="377" alt="Screen Shot 2023-11-25 at 11 48 12 PM" src="https://github.com/yunlingTao/Evadb_bitcoinpred/assets/113263652/165d8894-a4a9-4af4-9c65-00292b4296b9">
 
 
